@@ -109,4 +109,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## 📬 Contact
 
-For questions or collaboration inquiries, please contact [Ruben Rodriguez](mailto:rubenxrodriguez@example.com).
+For questions or collaboration inquiries, please contact [Ruben Rodriguez](mailto:rrodr102@lion.lmu.edu).
