@@ -16,6 +16,20 @@ This project provides a comprehensive analytical framework for evaluating lineup
 - **Visualizations**: Generate insightful plots to visualize minutes distribution, performance stability, and stabilization timelines.
 - **Interactive Tables**: Highlight lineups exceeding specified thresholds in minutes played or performance variability.
 
+
+## ⚙️ Functions Overview
+
+- **`load_all_team_data(teams_list)`**: Loads progression and top lineup data for specified teams.
+- **`analyze_conference(progression_df, top_lineups_df)`**: Performs comprehensive analysis, returning stability statistics and minimum sample sizes for stabilization.
+- **`visualize_conference_trends(stats_df, min_samples_df)`**: Generates visualizations for minutes distribution, performance stability, and stabilization timelines.
+
+## 📈 Methodology
+
+- **Stability Metrics**: Calculates the coefficient of variation (CV) for net rating and plus-minus per 40 minutes to assess performance consistency.
+- **Stabilization Point**: Identifies the cumulative minutes at which a lineup's performance metric change falls below a defined threshold, indicating stabilization.
+- **Weighted Averages**: Ensures accurate representation of performance metrics by computing weighted averages based on minutes played.
+
+
 ## 🛠️ Installation
 
 1. **Clone the Repository**:
@@ -83,31 +97,7 @@ Lineup_Analysis_WCC/
    display(lineups_over_50.style.background_gradient(cmap='coolwarm', subset=['plusminus_per40']))
    ```
 
-## ⚙️ Functions Overview
-
-- **`load_all_team_data(teams_list)`**: Loads progression and top lineup data for specified teams.
-- **`analyze_conference(progression_df, top_lineups_df)`**: Performs comprehensive analysis, returning stability statistics and minimum sample sizes for stabilization.
-- **`visualize_conference_trends(stats_df, min_samples_df)`**: Generates visualizations for minutes distribution, performance stability, and stabilization timelines.
-
-## 📈 Methodology
-
-- **Stability Metrics**: Calculates the coefficient of variation (CV) for net rating and plus-minus per 40 minutes to assess performance consistency.
-- **Stabilization Point**: Identifies the cumulative minutes at which a lineup's performance metric change falls below a defined threshold, indicating stabilization.
-- **Weighted Averages**: Ensures accurate representation of performance metrics by computing weighted averages based on minutes played.
-
-## 🧪 Testing
-
-To run tests (if available), execute:
-
-```bash
-pytest tests/
-```
-
 Ensure that all dependencies are installed and that you're in the correct directory.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
 
 ## 🤝 Contributing
 
