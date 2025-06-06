@@ -1,7 +1,7 @@
 # WCC Lineup Analysis
 
 This project provides a comprehensive analytical framework for evaluating lineup performance and stability across teams in the West Coast Conference (WCC). It leverages advanced statistical methods to assess lineup effectiveness, stability over time, and performance metrics, offering valuable insights for coaches, analysts, and basketball enthusiasts.
-### ** Note **
+### ** Notes **
 * Thresholds were arbitrarily chosen
 * There is a bias towards practicality over mathematical completeness
 * The lineup data is from "cbbanalytics.com"
