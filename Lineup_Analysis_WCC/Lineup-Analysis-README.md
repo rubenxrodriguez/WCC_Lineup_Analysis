@@ -1,6 +1,12 @@
 # WCC Lineup Analysis
 
 This project provides a comprehensive analytical framework for evaluating lineup performance and stability across teams in the West Coast Conference (WCC). It leverages advanced statistical methods to assess lineup effectiveness, stability over time, and performance metrics, offering valuable insights for coaches, analysts, and basketball enthusiasts.
+### ** Note **
+* Thresholds were arbitrarily chosen
+* There is a bias towards practicality over mathematical completeness
+* The lineup data is from "cbbanalytics.com"
+    * Because of the structure of the online data, I decided to pull 4 different time intervals and one cumulative end-of-season file
+         * Interval 1 [start of season - Dec 15] , Interval 2 [Dec 16 - Jan 15], Interval 3 [Jan 16 - Feb 15], Interval 4 [Feb 16 - end of season]
 
 ## 📊 Features
 
