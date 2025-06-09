@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import re
 
+# See the structure of teams to understand how this is set up
 
 # ====================== CONFIGURATION ======================
 CONFERENCE_PLAYERS_CSV = 'wcc_players.csv'
@@ -19,6 +20,7 @@ def load_player_data():
     
     # Create mapping dictionaries
     id_to_info = {}
+    # Map playerId to {firstname[0]}{lastname[0:3]} (for example Brandi Williams -> BWil)
     for _, row in player_df.iterrows():
         player_id = int(float(row['playerId']))
         parts = row['fullName'].split()
