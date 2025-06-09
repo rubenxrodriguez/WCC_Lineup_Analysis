@@ -7,12 +7,14 @@ This project provides a comprehensive analytical framework for evaluating lineup
 * The lineup data is from "cbbanalytics.com"
     * Because of the structure of the online data, I decided to pull 4 different time intervals and one cumulative end-of-season file
          * Interval 1 [start of season - Dec 15] , Interval 2 [Dec 16 - Jan 15], Interval 3 [Jan 16 - Feb 15], Interval 4 [Feb 16 - end of season]
+* There are interactive tables in the code that aren't properly displayed through github.  
+
 
 ## 📊 Features
 
 - **Lineup Filtering**: Isolate top-performing lineups based on custom criteria.
 - **Performance Metrics**: Compute key statistics such as net rating, plus-minus per 40 minutes, and their respective standard deviations.
-- **Stability Analysis**: Determine the point at which a lineup's performance stabilizes using cumulative metrics.
+- **Stability Analysis**: Determine the point at which a lineup's performance stabilizes using cumulative metrics. The key question we're trying to answer is : at what point is a lineup's sample size significant.
 - **Visualizations**: Generate insightful plots to visualize minutes distribution, performance stability, and stabilization timelines.
 - **Interactive Tables**: Highlight lineups exceeding specified thresholds in minutes played or performance variability.
 
