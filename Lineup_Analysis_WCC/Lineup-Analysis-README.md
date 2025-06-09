@@ -1,6 +1,6 @@
 # WCC Lineup Analysis
 
-This project provides a comprehensive analytical framework for evaluating lineup performance and stability across teams in the West Coast Conference (WCC). It utilizes +/- per 40 min and net rating to assess lineup effectiveness, stability over time, and performance metrics, offering valuable insights for coaches, analysts, and basketball enthusiasts.
+This project provides a comprehensive analytical framework for evaluating lineup performance and stability across teams in the West Coast Conference (WCC). It utilizes +/- per 40 min and net rating to assess lineup effectiveness, stability over time, and performance metrics, offering valuable insights for coaches.
 ### ** Notes **
 * Thresholds were arbitrarily chosen
 * There is a bias towards practicality over mathematical completeness
